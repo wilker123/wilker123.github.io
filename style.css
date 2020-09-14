@@ -1,0 +1,45 @@
+*{
+	margin: 5px
+}
+body{
+	background-image: url(images/Background.png);
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: auto;
+}
+.nav-item a{
+	color: white;
+	font-size: 20px;
+}
+.div2{
+	background-color: #EDEDED;
+}
+.div3{
+	background-color: #EDEDED;
+}
+.div4{
+	margin: auto;
+}
+figure.foto-legenda{
+	position: relative;
+	box-shadow: 1px 1px 4px solid black;
+}
+figure.foto-legenda img{
+	width: 100%;
+	height: 100%;
+}
+figure.foto-legenda figcaption{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	transition: 1s;
+}
+figure.foto-legenda:hover figcaption{
+	opacity: 1;
+}
